@@ -15,3 +15,9 @@ git commit --allow-empty -m '{message}'
 # e.g.
 git commit --allow-empty -m 'chore: initial commit'
 ```
+
+## 推送到多個 remote
+
+```shell
+git remote set-url --add --push {倉庫} {目標}
+```
